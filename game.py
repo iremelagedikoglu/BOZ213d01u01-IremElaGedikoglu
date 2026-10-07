@@ -43,10 +43,6 @@ print()
 
 
 def get_action_from_form(current_hp, current_energy, current_potions, enemy_name, enemy_hp):
-    """
-    input() yerine çalışan grafik arayüzlü (GUI) Form Girişi.
-    Kullanıcıdan form girdisi alır, doğrular ve seçilen eylemi string olarak döndürür.
-    """
     root = tk.Tk()
     root.title("Mini Sefer - Hamle Seçim Formu")
     root.geometry("380x360")
